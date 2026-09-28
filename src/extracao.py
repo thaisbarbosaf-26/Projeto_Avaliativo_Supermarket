@@ -3,12 +3,13 @@ import os
 import pandas as pd
 from pathlib import Path
 
-df_vendas = pd.read_csv("supermarket_raw.csv")
+
+df_vendas = pd.read_csv(r"data\raw\supermarket_raw_00.csv")
                     
 
 # Define o caminho do diretório e do arquivo
-diretorio = r"ProjetoAvaliativo_ThaisBarbosa_T4\data\raw"
-caminho_arquivo = os.path.join(diretorio, "supermarket_nao_processados.csv")
+diretorio = r"data\raw"
+caminho_arquivo = os.path.join(diretorio, "supermarket_raw_01.csv")
 
 # Cria a pasta caso ela não exista
 os.makedirs(diretorio, exist_ok=True)
