@@ -4,8 +4,6 @@ Projeto Avaliativo - Módulo 1_descricao.pdf
 # Arquivo baixado - Kaggle
 archive.zip
 
-
-
-# Pasta gitignore VERRRRRRR!!!!!
-gitignore/
+# Arquivo de segurança
+.env
 
